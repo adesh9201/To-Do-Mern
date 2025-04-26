@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://adeshmishra-todo.onrender.com";
+const API_URL = "https://adeshmishra-todo.onrender.com/api/items";
 
 export const fetchItems = async () => {
     const response = await axios.get(API_URL);
