@@ -8,7 +8,7 @@ const app = express();
 connectDB();  // Connect to MongoDB
 
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(cors({ origin: "https://adeshmishra-todo-jadu.onrender.com/", credentials: true }));
 
 app.use("/api/items", itemRoutes);  // Base API route
 
